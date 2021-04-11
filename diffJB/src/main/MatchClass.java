@@ -37,6 +37,8 @@ public class MatchClass {
         Thread th1 = new FunctionThread();
         Thread th2 = new TimerThread();
         try {
+            th1.setDaemon(true);
+            th2.setDaemon(true);
             th1.start();
             th2.start();
             while (true) {

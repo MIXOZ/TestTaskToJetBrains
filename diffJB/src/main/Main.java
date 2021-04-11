@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(matches("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "(a|aa)+"));
+        System.out.println(matches("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "(a|aa)+"));
         System.exit(0);
     }
 }
